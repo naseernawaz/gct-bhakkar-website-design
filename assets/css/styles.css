@@ -1011,7 +1011,7 @@
       overflow: hidden;
       position: relative;
       cursor: pointer;
-      height: 280px;
+      height: 300px;
       background-color: #fff;
       transition: transform 0.5s, box-shadow 0.5s;
       display: flex;
@@ -1044,7 +1044,7 @@
 
     .card-beside img {
       width: 100%;
-      height: 180px;
+      height: 200px;
       object-fit: cover;
       border-radius: 20px 20px 0 0;
       margin-bottom: 15px;
@@ -1093,7 +1093,7 @@
       font-size: 1.3rem;
       font-weight:bold;
       color: #333;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
 
    
