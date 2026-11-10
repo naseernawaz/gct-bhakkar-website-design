@@ -1,10 +1,10 @@
 :root {
-            --primary: #1e3a8a;
+            --primary: #1e293b;
             --secondary: #f59e0b;
-            --accent: #059669;
+            --accent: #2563eb;
             --light: #f8fafc;
             --dark: #1e293b;
-            --gray: #64748b;
+            --gray: #cbd5e1;
         }
         
      
@@ -17,7 +17,7 @@
      
         
         .hero-sectionb {
-            background: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(5, 150, 105, 0.8) 100%),  url('../images/college-front-view.jpg');
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.88), rgba(51, 65, 85, 0.82)), url('../images/college-front-view.jpg');
             background-size: cover;
             background-position: unset;
             color: white;
@@ -321,5 +321,69 @@
             margin-top: 50px;
             text-align: center;
             color: #94a3b8;
+        }
+
+        .intro-section,
+        .facilities-section {
+            background: var(--secondary-dark);
+            color: var(--text-light);
+        }
+
+        .mission-section,
+        .why-choose-section {
+            background: var(--primary-dark);
+            color: var(--text-light);
+        }
+
+        .section-title h2,
+        .intro-content h3,
+        .mission-card h4,
+        .facility-card h4,
+        .feature-card h4 {
+            color: var(--accent-gold);
+        }
+
+        .section-title p,
+        .intro-content p,
+        .mission-card p,
+        .facility-card p,
+        .feature-card p {
+            color: var(--text-muted) !important;
+        }
+
+        .values-list li {
+            color: var(--text-muted) !important;
+        }
+
+        .mission-card,
+        .facility-card,
+        .feature-card {
+            background: var(--card-bg);
+            color: var(--text-light);
+            border: 1px solid var(--border-color);
+        }
+
+        .mission-card,
+        .facility-card {
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .mission-icon,
+        .facility-icon,
+        .feature-icon,
+        .values-list i {
+            color: var(--accent-teal);
+        }
+
+        .closing-section {
+            background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+        }
+
+        .closing-section h2 {
+            color: var(--accent-gold);
+        }
+
+        .footer {
+            background: var(--primary-dark);
         }
        

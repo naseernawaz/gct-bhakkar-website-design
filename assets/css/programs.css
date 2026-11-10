@@ -1,9 +1,9 @@
  :root {
-            --gct-primary-blue: #1e3a8a;
-            --gct-secondary-blue: #3b82f6;
-            --gct-accent-yellow: #facc15;
-            --gct-text-dark: #1f2937;
-            --gct-light-bg: #f3f4f6;
+            --gct-primary-blue: #1e293b;
+            --gct-secondary-blue: #2563eb;
+            --gct-accent-yellow: #f59e0b;
+            --gct-text-dark: #f1f5f9;
+            --gct-light-bg: #334155;
             --gct-white: #fff;
         }
 
@@ -559,6 +559,83 @@
         .gct-programs-category-section {
             padding: 80px 0;
             background: linear-gradient(to bottom, #f3f4f6, #e5e7eb);
+        }
+
+        .gct-programs-body {
+            color: var(--text-light);
+            background: var(--primary-dark);
+        }
+
+        .gct-programs-hero {
+            background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+        }
+
+        .gct-programs-stats-section,
+        .gct-programs-features-section,
+        .gct-programs-category-section {
+            background: var(--secondary-dark);
+        }
+
+        .gct-programs-section-title,
+        .gct-programs-feature-title {
+            color: var(--accent-gold);
+        }
+
+        .gct-programs-section-subtitle,
+        .gct-programs-stat-label,
+        .gct-programs-program-description,
+        .gct-programs-program-features li,
+        .gct-programs-feature-description {
+            color: var(--text-muted);
+        }
+
+        .gct-programs-section-badge {
+            background: rgba(245, 158, 11, 0.14);
+            color: var(--accent-gold);
+        }
+
+        .gct-programs-stat-card,
+        .gct-programs-program-card,
+        .gct-programs-feature-card {
+            background: var(--card-bg);
+            color: var(--text-light);
+            border: 1px solid var(--border-color);
+        }
+
+        .gct-programs-stat-number,
+        .gct-programs-program-title {
+            color: var(--text-light);
+        }
+
+        .gct-programs-stat-icon.blue,
+        .gct-programs-stat-icon.purple,
+        .gct-programs-stat-icon.green,
+        .gct-programs-stat-icon.orange,
+        .gct-programs-feature-icon.blue,
+        .gct-programs-feature-icon.green,
+        .gct-programs-feature-icon.purple,
+        .gct-programs-feature-icon.orange,
+        .gct-programs-feature-icon.pink,
+        .gct-programs-feature-icon.teal {
+            background: linear-gradient(135deg, var(--accent-teal), var(--primary-dark));
+        }
+
+        .gct-programs-program-duration,
+        .gct-programs-program-icon {
+            background: rgba(37, 99, 235, 0.18);
+        }
+
+        .gct-programs-program-duration,
+        .gct-programs-program-icon i {
+            color: var(--accent-gold);
+        }
+
+        .gct-programs-testimonials-section {
+            background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+        }
+
+        .gct-programs-cta-section {
+            background: linear-gradient(135deg, var(--primary-dark), #243a58);
         }
 
         /* Responsive */

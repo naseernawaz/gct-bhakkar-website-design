@@ -1,6 +1,6 @@
 .hero-section {
-    background: linear-gradient(135deg, rgba(30,58,138,0.9) 0%, rgba(5,150,105,0.8) 100%),
-                url('/gct-bhakkar-website-design/assets/images/college-side-view.jpg');
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.88), rgba(51, 65, 85, 0.82)),
+                url('../images/college-side-view.jpg');
     color: #ffffff;
     padding: 30vh 0;
     text-align: center;

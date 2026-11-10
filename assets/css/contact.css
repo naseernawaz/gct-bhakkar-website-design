@@ -1,22 +1,22 @@
         :root {
-            --dark-blue: #0A1A33;
-            --bright-blue: #2563EB;
-            --light-bg: #f8fafc;
+            --dark-blue: #1e293b;
+            --bright-blue: #2563eb;
+            --light-bg: #334155;
         }
 
         body {
             font-family: 'Segoe UI', system-ui, sans-serif;
-            color: #333;
+            color: var(--text-light);
             background-color: var(--light-bg);
         }
 
         /* Hero Section */
         .hero-section {
-            background: linear-gradient(rgba(17, 35, 64, 0.85), rgba(19, 42, 78, 0.9)),
-                url('/assets/images/college-front-view.jpg') no-repeat center center;
+            background: linear-gradient(rgba(30, 41, 59, 0.88), rgba(51, 65, 85, 0.82)),
+                url('../images/college-front-view.jpg') no-repeat center center;
             background-size: cover;
             color: white;
-            padding: 120px 0 80px;
+            padding: 210px 0 185px;
             text-align: center;
         }
 
@@ -101,15 +101,16 @@
         /* Contact Form */
         .contact-form-section {
             padding: 80px 0;
-            background-color: white;
+            background-color: var(--secondary-dark);
         }
 
         .form-container {
-            background: white;
+            background: var(--primary-dark);
+            color: var(--text-light);
             border-radius: 12px;
             padding: 40px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            border: 1px solid rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
         }
 
         .form-control {
@@ -182,6 +183,49 @@
             margin-top: 40px;
             text-align: center;
             color: #94a3b8;
+        }
+
+        .contact-info-section,
+        .map-section {
+            background: var(--secondary-dark);
+        }
+
+        .contact-form-section {
+            background: var(--primary-dark);
+            color: var(--text-light);
+        }
+
+        .contact-form-section h1,
+        .map-section h1 {
+            color: var(--accent-gold);
+        }
+
+        .contact-form-section .text-muted,
+        .map-section .text-muted {
+            color: var(--text-muted) !important;
+        }
+
+        .info-card {
+            background: var(--primary-dark);
+            border-color: var(--border-color);
+        }
+
+        .info-card i,
+        .footer h5 {
+            color: var(--accent-gold);
+        }
+
+        .btn-primary-custom {
+            background-color: var(--accent-teal);
+        }
+
+        .btn-primary-custom:hover,
+        .social-icons a:hover {
+            background-color: #1d4ed8;
+        }
+
+        .footer {
+            background-color: var(--primary-dark);
         }
 
         /* Responsive adjustments */

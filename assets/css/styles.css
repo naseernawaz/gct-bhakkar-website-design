@@ -11,6 +11,32 @@
 
 /* Bootstrap Class Overrides */
 .text-primary { color: var(--accent-teal) !important; }
+.home-page .text-primary,
+.home-page .navbar-brand,
+.home-page .read-link,
+.home-page .message-side .section-title,
+.home-page .footer-text-light,
+.home-page .nav-link:hover,
+.home-page .footer-section a:hover,
+.home-page .social-icons li a:hover {
+  color: #f0a708 !important;
+}
+.home-page .footer-text-light:hover {
+  text-decoration-color: #f0a708 !important;
+}
+.home-page .btn-primary,
+.home-page .btn-custom {
+  background: #f0a708 !important;
+  border-color: #f0a708 !important;
+  color: var(--primary-dark) !important;
+}
+.home-page .btn-primary:hover,
+.home-page .btn-custom:hover {
+  background: #e69008 !important;
+  border-color: #e69008 !important;
+  color: var(--primary-dark) !important;
+  box-shadow: 0 5px 15px rgba(240, 167, 8, 0.3);
+}
 .bg-primary { background-color: var(--accent-teal) !important; }
 .bg-dark { background-color: var(--primary-dark) !important; }
 .text-dark { color: var(--text-light) !important; }
